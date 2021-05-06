@@ -243,10 +243,9 @@ median(NonLes3$nFeature_RNA)  #1255
 saveRDS(Les3, "./data/MF309_Lesional_filtered.RDS")
 saveRDS(NonLes3, "./data/MF309_NonLesional_filtered.RDS")
 
-###until here 9:41, 6.5.
 
-Les3<-readRDS( "./data/Pat65_Lesional_filtered.RDS")
-NonLes3<-readRDS("./data/Pat65_NonLesional_filtered.RDS")
+Les3<-readRDS( "./data/MF309_Lesional_filtered.RDS")
+NonLes3<-readRDS("./data/MF309_Lesional_filtered.RDS")
 
 
 
